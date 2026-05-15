@@ -1,3 +1,5 @@
+// https://www.testdome.com/questions/javascript/image-gallery/148095
+
 function setup() {
   Array.from(document.getElementsByClassName("remove")).forEach(
     (removeButton, index) => {

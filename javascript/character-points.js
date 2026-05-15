@@ -1,3 +1,5 @@
+// https://www.testdome.com/questions/javascript/character-points/147821
+
 function initialize(totalPoints) {
   let strength = 0;
   let speed = 0;
