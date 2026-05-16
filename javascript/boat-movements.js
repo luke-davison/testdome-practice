@@ -1,8 +1,6 @@
 // https://www.testdome.com/questions/javascript/boat-movements/134848
 
 function canTravelTo(gameMatrix, fromRow, fromColumn, toRow, toColumn) {
-  console.log(fromRow, fromColumn, toRow, toColumn);
-
   const possibleMovements = [
     [[0, -1]],
     [[0, 1]],
@@ -24,8 +22,6 @@ function canTravelTo(gameMatrix, fromRow, fromColumn, toRow, toColumn) {
   const result = movement.every(([rowOffset, colOffset]) => {
     return gameMatrix[fromRow + rowOffset][fromColumn + colOffset] === true;
   });
-
-  console.log("my result", result);
 
   return result;
 }
